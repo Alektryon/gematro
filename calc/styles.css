@@ -1541,6 +1541,30 @@ body {
 		max-height: 560px !important;
 	}
 }
+.cipherInfo {
+	background-color: var(--menu-bg-accent2);
+	color: var(--font-white-2);
+	font-family: var(--font-family), "Arial", sans-serif;
+	font-size: 100%;
+	padding: 1em 2em 1em 2em;
+	position: absolute;
+	top: 10%;
+	left: 30%;
+	height: 80%;
+	width: 40%;
+	overflow: auto;
+	z-index: 1000;
+	border: 1px solid var(--border-dark-accent);
+}
+@media (max-width: 911px) { /* mobile */
+	.cipherInfo {
+		top: 50% !important;
+		left: 50% !important;
+		transform: translateX(-50%) translateY(-50%);
+		width: 80% !important;
+		height: 80% !important;
+	}
+}
 .qgBoldCoin {
 	font-size: 150%;
 	margin: 1em 0em 0.3em 0em;
