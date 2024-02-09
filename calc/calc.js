@@ -287,6 +287,8 @@ function createAboutMenu() { // create menu with all cipher catergories
 	o += '<div style="margin: 1em;"></div>'
 	o += '<input class="intBtn" type="button" value="Quickstart Guide" onclick="displayQuickstartGuide()">'
 	o += '<div style="margin: 0.5em;"></div>'
+	o += '<input class="intBtn" type="button" value="Ciphers (Info)" onclick="displayCipherInfo()">'
+	o += '<div style="margin: 0.5em;"></div>'
 	o += '<input class="intBtn" type="button" value="GitHub Repository" onclick="gotoGitHubRepo()">'
 	o += '<div style="margin: 0.5em;"></div>'
 	o += '<input class="intBtn" type="button" value="Databases (Mega)" onclick="gotoMega()">'
