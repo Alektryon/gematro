@@ -412,7 +412,7 @@ function updateCipherChart(curCipher) {
 	o += 'min-height: 166px;' // avoid layout shift when Agrippa ciphers are active
 	o += 'margin-top: 1em;'
 	o += 'margin-bottom: 0.5em;'
-	o += 'padding: 0.8em;'
+	o += 'padding: 0.5em;'
 	$("#ChartSpot").attr("style", o);
 
 	o = '<table id="ChartTable">'
