@@ -207,7 +207,7 @@ function displayCipherInfoPanel(id) {
 	o += '<hr class="numPropSeparator">'
 	o += '</div>'
 
-	o += '<p><span class="qgNote" style="font-style:normal;">\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ ☉ /////////////////////////////////</span></p>'
+	o += '<p><span class="qgNote" style="font-style:normal;">»»»»»»»»»»»»»»»»»» ☉ ««««««««««««««««««</span></p>'
 	
 	o += '</div>'
 
