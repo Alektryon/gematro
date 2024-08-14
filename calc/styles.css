@@ -1660,6 +1660,9 @@ body {
 .ciphInfoPanel {
 	height: unset;
 }
+.contactInfo {
+	height: unset;
+}
 @media (max-width: 911px) { /* mobile */
 	.contactInfo {
 		width: 400px !important;
