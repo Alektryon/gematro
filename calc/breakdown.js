@@ -419,11 +419,11 @@ function updateCipherChart(curCipher) {
 	o += '<tbody><tr>'
 
 	o += '<tr>'
-	o += '<td id="spaceChartBtn" style="font-size: 150%; font-weight: 500; '+curCiphFaintCol+'">-</td>' // Space
-	o += '<td id="capsNameChartBtn" colspan="' + (Math.ceil(curCiphercArr.length / 2) - 2) + '">'
+//	o += '<td id="spaceChartBtn" style="font-size: 150%; font-weight: 500; '+curCiphFaintCol+'">-</td>' // Space
+	o += '<td id="capsNameChartBtn" colspan="' + (Math.ceil(curCiphercArr.length / 2)) + '">'
 	o += '<font style="font-size: 150%; font-weight: 500; '+curCiphCol+'">' + curCipher.cipherName + '</font>'
 	o += '</td>'
-	o += '<td id="backspaceChartBtn" style="font-size: 150%; font-weight: 500; '+curCiphFaintCol+'">&#8592;</td>' // Backspace
+//	o += '<td id="backspaceChartBtn" style="font-size: 150%; font-weight: 500; '+curCiphFaintCol+'">&#8592;</td>' // Backspace
 	o += '</tr><tr>'
 
 	var halfL = curCiphercArr.length / 2
