@@ -235,9 +235,9 @@ function displayContactInfo() {
 	
 	o += '<hr class="numPropSeparator">'
 
-	o += '<div style="margin-top: 1em;">If you enjoy this version of <span class="qgBold">Gematro</span> and want to show some support, please consider a donation:</div>'
+	o += '<div style="margin-top: 1em;">If you enjoy my blog <a href="https://gematriaresearch.blogspot.com" target="_blank">Gematria Research</a>, and want to further support my work, I will greatly appreciate if you consider a donation. Thanks in advance! &#128522;</div>'
 
-	o += '<div class="qgBoldCoin">PayPal:</div>\n<span class="qgAddr"><a class="qgLink" href="https://paypal.me/alektryon">PayPal.me/Alektryon</a></span><br><br><br>'
+	o += '<br><span class="qgAddr"><a class="qgLink" href="https://paypal.me/alektryon">PayPal.me/Alektryon</a></span><br><br><br>'
 
 	o += '</div>'
 
