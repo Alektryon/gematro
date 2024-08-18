@@ -1666,7 +1666,7 @@ body {
 @media (max-width: 911px) { /* mobile */
 	.contactInfo {
 		width: 400px !important;
-		height: 80% !important;
+		height: 60% !important;
 		max-height: 560px !important;
 	}
 	.faqPanel {
