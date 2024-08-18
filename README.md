@@ -11,7 +11,7 @@ This specific calculator is based entirely on the original <a href="https://gema
 <li>Changed the default font from Montserrat to Arial</li>
 <li>Deleted the "space" and "backspace" buttons from the cipher chart</li>
 <li>Changed the default and available ciphers</li>
-<li>Added a "Cryptographic" category</li>
+<li>Added some cryptographic ciphers (and others yet to be added, eventually)</li>
 <li>Added a "Ciphers (Info)" menu, containing valuable information on all the ciphers, with bibliographical references</li>
 <li>And a few other details here and there </li>
 </ul>
