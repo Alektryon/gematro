@@ -5,7 +5,7 @@
 
 ## About This Calculator
 
-This specific calculator is based entirely on the original <a href="https://gematro.github.io/" target="_blank">GEMATRO</a> calculator by <a href="https://github.com/gematro" target="_blank">Mikhail</a> ("Saun Virroco"), with some changes, deletions and additions by @Alektryon:
+This specific calculator is based entirely on the original [GEMATRO](https://gematro.github.io/) calculator by [Mikhail](https://github.com/gematro) ("Saun Virroco"), with some changes, deletions and additions by [@Alektryon](https://github.com/Alektryon):
 
 <ul>
 <li>Changed the default font from Montserrat to Arial</li>
