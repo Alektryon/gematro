@@ -1120,11 +1120,11 @@ function enableAllEnglishCiphers() {
 	prevCiphIndex = -1 // reset cipher selection
 	var cur_chkbox
 	for (i = 0; i < cipherList.length; i++) {
-		if (cipherList[i].cipherCategory == "Extra" && optShowExtraCiphers && cipherList[i].cArr.indexOf(97) > -1) { // lowercase "a", "Extra" English ciphers only if allowed
+		if (cipherList[i].cipherCategory == "Extra" && optShowExtraCiphers && cipherList[i].cArr.indexOf(97) > -1 && cipherList[i].cipherCategory !== "Cryptographic") { // lowercase "a", "Extra" English ciphers only if allowed
 			cur_chkbox = document.getElementById("cipher_chkbox"+i)
 			cipherList[i].enabled = true
 			if (cur_chkbox !== null) cur_chkbox.checked = true
-		} else if (cipherList[i].cipherCategory !== "Extra" && cipherList[i].cArr.indexOf(97) > -1) { // lowercase "a", other cipher categories
+		} else if (cipherList[i].cipherCategory !== "Extra" && cipherList[i].cArr.indexOf(97) > -1 && cipherList[i].cipherCategory !== "Cryptographic") { // lowercase "a", other cipher categories
 			cur_chkbox = document.getElementById("cipher_chkbox"+i)
 			cipherList[i].enabled = true
 			if (cur_chkbox !== null) cur_chkbox.checked = true
