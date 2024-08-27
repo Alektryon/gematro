@@ -3,9 +3,9 @@
 ---
 > NOTE: Use a desktop Chromium based browser for best experience
 
-## About This Calculator
+### About This Calculator
 
-This specific calculator is based entirely on the original [GEMATRO](https://gematro.github.io/) calculator by [Mikhail](https://github.com/gematro), with some changes, deletions and additions by [@Alektryon](https://github.com/Alektryon):
+This specific calculator is based entirely on the original [GEMATRO](https://gematro.github.io/) calculator by [Mikhail](https://github.com/gematro), with some changes, deletions and additions by [Alektryon](https://github.com/Alektryon):
 
 <ul>
 <li>Changed the default font from Montserrat to Arial</li>
